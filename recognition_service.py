@@ -12,7 +12,7 @@ app = Flask(__name__)
 DATABASE = 'shamzam.db'
 
 # Replace with your Audd.io API key or load from environment:
-AUDD_API_KEY = os.getenv("AUDD_KEY", "58977ae53d1f86fc1c60737be53d4d3d")
+AUDD_API_KEY = os.getenv("AUDD_KEY", "your_key")
 
 def get_db():
     """Returns a SQLite connection, stored in Flask’s 'g' context."""
